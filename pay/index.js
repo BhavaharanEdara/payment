@@ -7,7 +7,7 @@ const cors = require("cors");
 @Crossorigin
 app.use(cors(
     {
-        origin:"https://payment-r17t.vercel.app"
+        origin:"https://payment-r17t.vercel.app/"
     }
 ));
 
