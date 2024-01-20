@@ -4,7 +4,6 @@ const dotenv = require('dotenv').config();
 const auhtRouter = require('./routes/sendmail');
 const PORT = 5000;
 const cors = require("cors");
-@Crossorigin
 app.use(cors(
 ));
 
