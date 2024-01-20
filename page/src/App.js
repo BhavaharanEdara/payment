@@ -13,7 +13,7 @@ function App() {
     },
     validationSchema: schema,
     onSubmit: async(values)=>{
-      const response = await axios.post(`testpay-amsh.vercel.app`, values);
+      const response = await axios.post(`https://testpay-amsh.vercel.app/auth/send`, values);
       if(response.data){
         window.location.replace("https://formspree.io/thanks?language=en#home");
 
