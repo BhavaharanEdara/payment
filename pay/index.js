@@ -6,7 +6,7 @@ const PORT = 5000;
 const cors = require("cors");
 app.use(cors(
     {
-        origin:["https://payment-nine-sooty.vercel.app"],
+        origin:"https://payment-nine-sooty.vercel.app",
         methods:["POST", "GET"],
         credentials:true
     }
