@@ -6,9 +6,6 @@ const PORT = 5000;
 const cors = require("cors");
 @Crossorigin
 app.use(cors(
-    {
-        origin:"https://payment-r17t.vercel.app/"
-    }
 ));
 
 const bodyParser = require('body-parser');
